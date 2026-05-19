@@ -1,0 +1,23 @@
+{
+  "name": "Prueba Pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor ./src index.html --reload --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "servor": "^4.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+
+
+}
